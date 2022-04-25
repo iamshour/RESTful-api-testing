@@ -1,0 +1,27 @@
+{
+	"name": "restful-api",
+	"version": "1.0.0",
+	"description": "custom-made RESTful API",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js;",
+		"start-dev": "nodemon index.js;",
+		"test": "nodemon dotenv/config index.js"
+	},
+	"keywords": [
+		"restful-api",
+		"node.js",
+		"express"
+	],
+	"author": "iamshour",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.2",
+		"helmet": "^5.0.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
