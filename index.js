@@ -4,6 +4,7 @@ import helmet from "helmet"
 import msgsRoute from "./routes/msgs.js"
 
 const app = express()
+
 const port = process.env.PORT || 5000
 
 const corsOptions = {
